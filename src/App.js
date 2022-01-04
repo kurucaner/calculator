@@ -50,7 +50,8 @@ function App() {
     <div className="App">
       <div className="calculator">
         <div className="display">
-          {result ? <span>({result})</span> : ""}
+          {result ? <span>({result})</span> : "Calculator"}
+          <br />
           {calc || "0"}
         </div>
 
